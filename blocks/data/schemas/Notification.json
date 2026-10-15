@@ -1,0 +1,42 @@
+{
+  "schemaName": "Notification",
+  "schemaType": 1,
+  "collectionName": "sb_notifications",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "topic",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "message",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "read",
+      "type": "Boolean",
+      "isArray": false
+    },
+    {
+      "name": "kind",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "link",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "deletedAt",
+      "type": "DateTime",
+      "isArray": false
+    }
+  ]
+}

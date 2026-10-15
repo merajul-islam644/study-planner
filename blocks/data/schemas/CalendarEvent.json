@@ -1,0 +1,42 @@
+{
+  "schemaName": "CalendarEvent",
+  "schemaType": 1,
+  "collectionName": "sb_calendarevents",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "date",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "startTime",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "endTime",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "notes",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "deletedAt",
+      "type": "DateTime",
+      "isArray": false
+    }
+  ]
+}

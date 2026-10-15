@@ -1,0 +1,11 @@
+{
+  "clientDisplayName": "Study Planner",
+  "clientType": "public",
+  "active": true,
+  "redirectUris": [
+    "https://Pf5f018b277044ea091a46925d1fe44cd-085b9f3c-0022-4450-98f5-d5911a0a65aa.slsblx.com/login/callback",
+    "https://pf5f018b277044ea091a46925d1fe44cd-085b9f3c-0022-4450-98f5-d5911a0a65aa.slsblx.com:5173/login/callback",
+    "https://dev-studio.blocksdevelopers.com/api/CodeApps/Pf5f018b277044ea091a46925d1fe44cd/085b9f3c-0022-4450-98f5-d5911a0a65aa/preview/login/callback"
+  ],
+  "registerAsIdentityProvider": true
+}

@@ -1,0 +1,42 @@
+{
+  "schemaName": "Reminder",
+  "schemaType": 1,
+  "collectionName": "sb_reminders",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "refType",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "refId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "offsetMinutes",
+      "type": "Int",
+      "isArray": false
+    },
+    {
+      "name": "sent",
+      "type": "Boolean",
+      "isArray": false
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "deletedAt",
+      "type": "DateTime",
+      "isArray": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import type { ReactNode } from "react";
+import { LocalizationProvider } from "../../lib/i18n/LocalizationProvider";
+import { ThemeProvider } from "../../lib/theme";
+import { ToastProvider } from "../../shared/ui/toast";
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      // Without this, every component that mounts a query (e.g. the
+      // always-visible UserMenu and the Profile page both querying
+      // ["iam", "me"]) treats cached data as stale immediately and
+      // refetches on mount, even seconds after another mount just loaded it.
+      staleTime: 30_000,
+      refetchOnWindowFocus: false,
+      retry: false
+    }
+  }
+});
+
+export function AppProviders({ children }: { children: ReactNode }) {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider>
+        <LocalizationProvider>
+          <ToastProvider>{children}</ToastProvider>
+        </LocalizationProvider>
+      </ThemeProvider>
+    </QueryClientProvider>
+  );
+}

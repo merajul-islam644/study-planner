@@ -1,0 +1,92 @@
+{
+  "schemaName": "StudentProfile",
+  "schemaType": 1,
+  "collectionName": "sb_studentprofiles",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "name",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "email",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "profileImageFileId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "educationLevel",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "institution",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "term",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "academicGoal",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "preferredDays",
+      "type": "String",
+      "isArray": true
+    },
+    {
+      "name": "preferredHours",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "avgSessionMinutes",
+      "type": "Int",
+      "isArray": false
+    },
+    {
+      "name": "dailyTargetMinutes",
+      "type": "Int",
+      "isArray": false
+    },
+    {
+      "name": "weeklyTargetMinutes",
+      "type": "Int",
+      "isArray": false
+    },
+    {
+      "name": "appearance",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "notificationPrefs",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "onboarded",
+      "type": "Boolean",
+      "isArray": false
+    },
+    {
+      "name": "milestones",
+      "type": "String",
+      "isArray": true
+    }
+  ]
+}

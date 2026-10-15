@@ -1,0 +1,47 @@
+{
+  "schemaName": "Goal",
+  "schemaType": 1,
+  "collectionName": "sb_goals",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "type",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "target",
+      "type": "Int",
+      "isArray": false
+    },
+    {
+      "name": "deadline",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "status",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "deletedAt",
+      "type": "DateTime",
+      "isArray": false
+    }
+  ]
+}

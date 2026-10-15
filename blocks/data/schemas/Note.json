@@ -1,0 +1,42 @@
+{
+  "schemaName": "Note",
+  "schemaType": 1,
+  "collectionName": "sb_notes",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "body",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "attachType",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "attachId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "tags",
+      "type": "String",
+      "isArray": true
+    },
+    {
+      "name": "deletedAt",
+      "type": "DateTime",
+      "isArray": false
+    }
+  ]
+}

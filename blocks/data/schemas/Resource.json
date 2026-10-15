@@ -1,0 +1,77 @@
+{
+  "schemaName": "Resource",
+  "schemaType": 1,
+  "collectionName": "sb_resources",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "type",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "url",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "fileId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "fileName",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "fileSize",
+      "type": "Int",
+      "isArray": false
+    },
+    {
+      "name": "subjectId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "topicId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "attachType",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "attachId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "description",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "tags",
+      "type": "String",
+      "isArray": true
+    },
+    {
+      "name": "deletedAt",
+      "type": "DateTime",
+      "isArray": false
+    }
+  ]
+}

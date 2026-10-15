@@ -1,0 +1,52 @@
+{
+  "schemaName": "Flashcard",
+  "schemaType": 1,
+  "collectionName": "sb_flashcards",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "question",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "answer",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "subjectId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "topicId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "difficult",
+      "type": "Boolean",
+      "isArray": false
+    },
+    {
+      "name": "mastered",
+      "type": "Boolean",
+      "isArray": false
+    },
+    {
+      "name": "difficultCount",
+      "type": "Int",
+      "isArray": false
+    },
+    {
+      "name": "deletedAt",
+      "type": "DateTime",
+      "isArray": false
+    }
+  ]
+}

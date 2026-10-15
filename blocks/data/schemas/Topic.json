@@ -1,0 +1,42 @@
+{
+  "schemaName": "Topic",
+  "schemaType": 1,
+  "collectionName": "sb_topics",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "subjectId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "name",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "status",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "difficulty",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "notes",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "deletedAt",
+      "type": "DateTime",
+      "isArray": false
+    }
+  ]
+}

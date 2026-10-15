@@ -1,0 +1,37 @@
+{
+  "schemaName": "Task",
+  "schemaType": 1,
+  "collectionName": "sb_tasks",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "assignmentId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "title",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "done",
+      "type": "Boolean",
+      "isArray": false
+    },
+    {
+      "name": "dueDate",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "deletedAt",
+      "type": "DateTime",
+      "isArray": false
+    }
+  ]
+}

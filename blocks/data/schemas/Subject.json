@@ -1,0 +1,14 @@
+{
+  "schemaName": "Subject",
+  "schemaType": 1,
+  "collectionName": "sb_subjects",
+  "fields": [
+    { "name": "ownerId", "type": "String", "isArray": false },
+    { "name": "name", "type": "String", "isArray": false },
+    { "name": "code", "type": "String", "isArray": false },
+    { "name": "colour", "type": "String", "isArray": false },
+    { "name": "instructor", "type": "String", "isArray": false },
+    { "name": "description", "type": "String", "isArray": false },
+    { "name": "deletedAt", "type": "DateTime", "isArray": false }
+  ]
+}

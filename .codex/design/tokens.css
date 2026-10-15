@@ -1,0 +1,50 @@
+/* Blocks Studio design theme: ocean — Fresh & clear.
+   Written before this run's first turn; not authored by the agent.
+   Copy the blocks below over the app stylesheet's own token block
+   verbatim. Values are HSL triplets, consumed as hsl(var(--token)). */
+
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --radius: 0.75rem;
+  --background: 195 40% 99%;
+  --foreground: 200 40% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 200 40% 12%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 200 40% 12%;
+  --primary: 191 88% 35%;
+  --primary-foreground: 190 40% 98%;
+  --secondary: 190 45% 94%;
+  --secondary-foreground: 200 40% 14%;
+  --muted: 190 35% 95%;
+  --muted-foreground: 200 14% 44%;
+  --accent: 188 62% 90%;
+  --accent-foreground: 200 42% 16%;
+  --destructive: 0 78% 48%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 195 25% 88%;
+  --input: 195 25% 88%;
+  --ring: 191 88% 35%;
+}
+
+.dark {
+  --background: 200 35% 8%;
+  --foreground: 190 25% 95%;
+  --card: 200 32% 11%;
+  --card-foreground: 190 25% 95%;
+  --popover: 200 32% 11%;
+  --popover-foreground: 190 25% 95%;
+  --primary: 188 82% 48%;
+  --primary-foreground: 200 40% 9%;
+  --secondary: 200 24% 16%;
+  --secondary-foreground: 190 25% 93%;
+  --muted: 200 24% 16%;
+  --muted-foreground: 192 14% 63%;
+  --accent: 195 40% 22%;
+  --accent-foreground: 190 40% 92%;
+  --destructive: 0 72% 57%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 200 22% 19%;
+  --input: 200 22% 19%;
+  --ring: 188 82% 48%;
+}

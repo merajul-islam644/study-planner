@@ -1,0 +1,42 @@
+{
+  "schemaName": "ChangeLog",
+  "schemaType": 1,
+  "collectionName": "sb_changelogs",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "entityType",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "entityId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "entityName",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "action",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "summary",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "actorName",
+      "type": "String",
+      "isArray": false
+    }
+  ]
+}

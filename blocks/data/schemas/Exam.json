@@ -1,0 +1,47 @@
+{
+  "schemaName": "Exam",
+  "schemaType": 1,
+  "collectionName": "sb_exams",
+  "fields": [
+    {
+      "name": "ownerId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "subjectId",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "name",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "dateTime",
+      "type": "DateTime",
+      "isArray": false
+    },
+    {
+      "name": "location",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "topicIds",
+      "type": "String",
+      "isArray": true
+    },
+    {
+      "name": "notes",
+      "type": "String",
+      "isArray": false
+    },
+    {
+      "name": "deletedAt",
+      "type": "DateTime",
+      "isArray": false
+    }
+  ]
+}
